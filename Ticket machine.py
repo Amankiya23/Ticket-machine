@@ -61,6 +61,10 @@ def cosmotics():
 
 cosmo = cosmotics()
 def main_data():
+    print("where you want to go:")
+    print("\t1, perfumery")
+    print("\t2, Pharmaceuticals")
+    print("\t3, Cosmetics")
     place = int(input("choose your option: "))
     if place == 1:
         print("\n\t\t\t\t reservation")
@@ -100,10 +104,6 @@ def main_data():
     duud()
 def duud():
     print("Hi welcome to our drug store: ")
-    print("where you want to go:")
-    print("\t1, perfumery")
-    print("\t2, Pharmaceuticals")
-    print("\t3, Cosmetics")
     ID = [346549306, 346369432]
     count = 0
     user = int(input("please enter your id:   "))
