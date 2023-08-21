@@ -4,7 +4,7 @@ from countdown import countdown
 
 def enter():
     print("Hi welcome to our drug store: ")
-    ID = [346549306, 346369432]
+    ID = [123456789, 12345678]
     count = 0
     user = int(input("please enter your id:   "))
     while count < 2:
@@ -12,7 +12,7 @@ def enter():
             print("\t\t\t\t\t\tyou are registered, welcome and select your destination")
             main_data()
         else:
-            print("\t\t\t\t\t\tyou are not rigistered, sorry")
+            print("\t\t\t\t\t\tyou are not registered, sorry")
             user = int(input("please enter your id:   "))
             count += 1
     else:
